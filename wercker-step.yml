@@ -1,0 +1,11 @@
+name: slack
+version: 0.1.0
+description: Notify slack channel on successfull / failed build
+keywords:
+  - notification
+  - webhook
+  - slack
+properties:
+  webhook:
+    type: string
+    required: true

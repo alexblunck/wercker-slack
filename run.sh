@@ -31,7 +31,7 @@ curl -X POST -H 'Content-type: application/json' \
             "fields": [
                 {
                     "title": "Project",
-                    "value": "ocean-web",
+                    "value": "'"$WERCKER_APPLICATION_NAME"'",
                     "short": true
                 },
                 {
